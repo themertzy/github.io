@@ -277,14 +277,14 @@ p {
         }
 
 #fh5co-header.navbar-fixed-top {
-  position: fixed !important;
-  background: #fff;
-  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-  top: 0;
-  left: 0px;
+    position: fixed !important;
+    background: #ddd6c0;
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0px;
 }
 #fh5co-header.navbar-fixed-top #fh5co-logo {
   float: left;
@@ -295,13 +295,13 @@ p {
   font-size: 30px;
   color: #000;
 }
-#fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a {
-  font-family: "Roboto Slab", sans-serif;
-  color: rgba(0, 0, 0, 0.8);
-  text-decoration: none;
-  margin-left: 90px;
-  border-bottom: 2px solid transparent;
-}
+    #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a {
+        font-family: "Roboto Slab", sans-serif;
+        color: rgba(165,142,45,.8);
+        text-decoration: none;
+        margin-left: 90px;
+        border-bottom: 2px solid transparent;
+    }
     #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a:hover {
         text-decoration: none;
         color: #f9ad81;
@@ -778,7 +778,7 @@ p {
 }
 
 .section-heading .fh5co-section-title {
-  font-size: 11px;
+  font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
