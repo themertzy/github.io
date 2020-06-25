@@ -484,7 +484,8 @@ p {
 #fh5co-contact,
 #fh5co-testimony,
 #fh5co-content {
-  padding: 7em 0;
+  padding-bottom: 2em;
+  padding-top: 20px !important;
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio,
@@ -566,10 +567,12 @@ p {
   background-attachment: fixed;
   position: relative;
   width: 100%;
+  height: 500px;
 }
 #fh5co-testimony > .container {
   position: relative;
   z-index: 5;
+  height: 500px;
 }
 #fh5co-testimony > .fh5co-overlay {
   position: absolute;
@@ -647,9 +650,9 @@ p {
 }
 
 #fh5co-footer {
-  background: #ececec;
-  padding: 4em 0;
-  font-size: 16px;
+    background: #ddd6c0;
+    padding: 2em 0;
+    font-size: 16px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
@@ -666,8 +669,9 @@ p {
   margin-bottom: 10px;
 }
 #fh5co-footer .fh5co-footer-widget {
-  margin-bottom: 30px;
-  float: left;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  
   width: 100%;
 }
 
@@ -785,7 +789,8 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     opacity: .4;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+
 }
 
 .fh5co-lead {
@@ -911,7 +916,7 @@ p {
 }
 
 .r-pb {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 480px) {
@@ -1136,3 +1141,6 @@ p {
         font-size: 20px !important;
     }
 
+.fa {
+    color: #61837e;
+}
