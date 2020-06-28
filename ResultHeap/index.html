@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Solutions and Design - ResultHeap</title>
+
+    <meta charset="utf-8" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="css/vendor/bootstrap.css" rel="stylesheet" />
+    <link href="css/vendor/font-awesome.css" rel="stylesheet" />
+    <link href="css/vendor/slick.css" rel="stylesheet" />
+    <link href="css/vendor/slick-theme.css" rel="stylesheet" />
+    <link href="css/vendor/odometer-theme-default.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="dropdown-nav.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+
+
+
+    
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../navbar/">Default</a></li>
+                    <li><a href="../navbar-static-top/">Static top</a></li>
+                    <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+   
+
+    <script>$(document).ready(function () {
+            $('.navbar .dropdown').hover(function () {
+                $(this).find('.dropdown-menu').first().stop(true, true).slideDown(150);
+            }, function () {
+                $(this).find('.dropdown-menu').first().stop(true, true).slideUp(105)
+            });
+        });</script>
+
+
+    <script>AOS.init();</script>
+
+    <div class="home-slider">
+        <div class="home-slider--wrapper">
+            <div>
+                <div class="home-slider--wrapper__inner" style="background-image: url('assets/img/main-header.jpg')">
+                    <div class="container">
+                        <h1 class="fadeonload">ResultHeap</h1>
+                        <span class="dot-dash fadeonload">.</span>
+                        <p class="fadeonload" style="font-size:25px">Web Solutions and Design</p>
+                        <div class="slider-buttons fadeonload">
+                            <a href="services.html" class="button">Our Services</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="partners change-padding change-color-subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="change-spacing-h2"><b>Get A Free Quote.</b></h2>
+                    <p><b>Knowing Is Half The Battle, And We Let You Know For Free </b></p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 float-r">
+                    <div class="slider-buttons change-slider-btn-pad">
+                        <a href="contact-form/index.html" class="button button-w change-btn-height">Get A Quote</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper change-padding-wrapper">
+        <section class="four-elements change-padding">
+            <div class="container">
+
+                <div class="container">
+                    <h2 class="change-h2-color change-h2-text-space">Creating Powerful Technology on the World Wide Web</h2>
+
+                </div>
+                <div data-aos="zoom-in">
+                    <div class="row padder-top">
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="four-elements--image"><i class="fas fa-globe" aria-hidden="true"></i></div>
+                            <h3>Web Design</h3>
+                            <p>We create powerful websites with a mobile first attitude. All the best tech is brought to bear.</p>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="four-elements--image"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+                            <h3>eCommerce</h3>
+                            <p>Market and sell your goods and services with our integrated market technology.</p>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="four-elements--image"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></div>
+                            <h3>Mentoring</h3>
+                            <p>Beginner and Advanced Mentor and Tutoring Services that are taylored to your needs.</p>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6 col-xs-12 ">
+                            <div class="four-elements--image"><i class="far fa-comments" aria-hidden="true"></i></div>
+                            <h3>Full Support</h3>
+                            <p>We take all your concerns seriously, offering full support to each and every customer to make sure you are satisfied.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="our-history">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-xs-12">
+                    <img src="assets/img/computer-home.jpg" alt="" />
+                </div>
+                <div class="col-md-7 col-sm-12 col-xs-12 fadein change-padding-our-history">
+                    <h2 class="home-services-h2">About ResultHeap</h2>
+                    <p class="fadein">ResultHeap was created upon the idea that quality is not a desire, but rather a necessity. Furthermore, everyone needs to keep costs down as well. ResultHeap creates quality product at the lowest prices in the industry. </p>
+                    <p class="fadein">We are here to make your dreams come to life. Keeping everything sleek, slim, and beautiful is our main goal. We are here to help all, using the best of the best that the industry has to offer. We value our customers and our own product. Nothing but the best for the lowest of costs.</p>
+                    <a class="button" href="about.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-study">
+        <div class="container fadein">
+            <h2 class="change-h2-text-space">Why ResultHeap?</h2>
+            <span class="dot-dash dark">.</span>
+            <!--<p>Get All The Latest News and Updates for Web Development and Designing</p>-->
+
+        </div>
+        <div class="container padder-top">
+            <div class="case-study--sliders">
+                <div class="case-study--left">
+                    <div class="case-study--left__textslider fadein">
+                        <div>
+                            <div class="case-study--left__textslider__image"><i class="far fa-question-circle" aria-hidden="true"></i></div>
+                            <h4>Why Choose ResultHeap For Your Web Development Needs?</h4>
+                            <!--<p>Why should you chose ResultHeap for your web development needs?</p>-->
+                            <a href="Blog/Posts/why-resultheap.html" class="button small">The Answer</a>
+                        </div>
+                        <!--<div>
+                            <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                            <h4>Accumulate creative ideas</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum has been the industry's standard dummy text ever since the 1500s, when an unk- nown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <a href="#" class="button small">Read More</a>
+                        </div>
+                        <div>
+                            <div class="case-study--left__textslider__image"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                            <h4>Accumulate creative ideas</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum has been the industry's standard dummy text ever since the 1500s, when an unk- nown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <a href="#" class="button small">Read More</a>
+                        </div>-->
+                    </div>
+                    <!--<div class="case-study--left__dots"></div>-->
+                </div>
+                <div class="case-study--right">
+                    <div class="case-study--right__imageslider">
+                        <div>
+                            <img src="assets/img/why-resultheap-home.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img src="assets/img/case.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img src="assets/img/case.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>AOS.init();</script>
+
+    <section class="partners">
+        <div class="container">
+            <h2>Powerful Integrations</h2>
+            <span class="dot-dash dark">.</span>
+            <p class="change-h2-text-space fadein">The Most Powerful Technologies And Frameworks Are Used To Create Every Product</p>
+            <div data-aos="fade-down">
+                <div class="partners--container padder-top">
+                    <div class="partners--item fadein">
+                        <div class="partners--item__image">
+                            <i class="fab fa-google fa-5x"></i>
+                        </div>
+                        <h3>Google API</h3>
+                    </div>
+
+                    <div class="partners--item fadein">
+                        <div class="partners--item__image">
+                            <i class="fab fa-aws fa-5x"></i>
+                        </div>
+                        <h3>Amason Web Services</h3>
+                    </div>
+
+                    <div class="partners--item fadein">
+                        <div class="partners--item__image">
+                            <i class="fab fa-node-js fa-5x"></i>
+                        </div>
+                        <h3>Node.js</h3>
+                    </div>
+
+                    <div class="partners--item fadein">
+                        <div class="partners--item__image">
+                            <i class="fab fa-bootstrap fa-5x"></i>
+                        </div>
+                        <h3>Bootstrap</h3>
+                    </div>
+
+                    <div class="partners--item fadein">
+                        <div class="partners--item__image">
+                            <i class="fas fa-plus fa-5x"></i>
+                        </div>
+                        <h3>And Many More!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners change-padding change-color-subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="change-spacing-h2"><b>Stay Up to Date.</b></h2>
+                    <p><b>Subscribe to Our Weekly Newsletter for Exclusive News and Content </b></p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 float-r">
+                    <div class="slider-buttons change-slider-btn-pad">
+                        <a href="https://mailchi.mp/e293ea72f7f4/resultheap-newsletter-sign-up" target="popup" onclick="window.open('https://mailchi.mp/e293ea72f7f4/resultheap-newsletter-sign-up','popup','width=695,height=780'); return false;" class="button button-w change-btn-height">Subscribe Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer-background-color">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="link" href="about.html">About</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="link" href="services.html">Services</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="link" href="Blog/index.html">Blog</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="link" href="faq.html">FAQ</a>
+                    </h6>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="link" href="contact-form/index.html">Contact</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+
+            <hr class="rgba-white-light" style="margin: 0 2%; padding-bottom: 15px;">
+
+
+
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+
+
+        </div>
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 footer-text-color">
+            © 2020 Copyright:
+            <a class="link" href="https://www.resultheap.com/"> ResultHeap</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script type="text/javascript">
+        window.odometerOptions = {
+            format: '(,ddd)',
+        };
+    </script>
+    <script src="js/vendor/jquery-3.1.0.min.js"></script>
+    <script src="js/vendor/jquery.easing.min.js"></script>
+    <script src="js/vendor/tether.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/vendor/slick.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/odometer.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="fade-scroll.js"></script>
+    <script src="fade-load.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="dropdown-nav.js"></script>
+
+</body>
+</html>
